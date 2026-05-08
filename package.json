@@ -1,0 +1,14 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Rawnak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2"
+  }
+}
