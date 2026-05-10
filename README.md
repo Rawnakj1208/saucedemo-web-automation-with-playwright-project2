@@ -485,6 +485,7 @@ allure-report-success/index.html
 ```
 ---
 
+
 ## Failure Report
 
 Open:
@@ -493,3 +494,13 @@ Open:
 allure-report-failure/index.html
 ```
 ---
+
+The reports can also be viewed locally using:
+
+```bash
+allure open allure-report-success
+```
+
+```bash
+allure open allure-report-failure
+```
