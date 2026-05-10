@@ -1,6 +1,6 @@
 # SauceDemo Web Automation Testing Project Using Playwright
-
-###This project was developed as part of a web automation testing assignment using Playwright with JavaScript. The framework was designed using Page Object Model (POM) structure and includes cross-browser execution, sequential execution, Allure reporting, failure analysis, screenshots, videos and GitHub integration.
+###
+This project was developed as part of a web automation testing assignment using Playwright with JavaScript. The framework was designed using Page Object Model (POM) structure and includes cross-browser execution, sequential execution, Allure reporting, failure analysis, screenshots, videos and GitHub integration.
 
 ## Project Overview
 
