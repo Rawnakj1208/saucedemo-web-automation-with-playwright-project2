@@ -76,7 +76,7 @@ PROJECT 2/
 
 ### Objective
 
-Verify that a locked-out user cannot log into the SauceDemo application.
+Verify that a locked-out user cannot log into the application.
 
 ### Test File
 
@@ -106,7 +106,7 @@ Epic sadface: Sorry, this user has been locked out.
 
 ### Objective
 
-Automate the complete purchase flow for a standard user.
+Automate the complete purchase flow for a "standard user".
 
 ### Test File
 
@@ -148,7 +148,7 @@ Thank you for your order!
 
 ### Objective
 
-Test purchase flow using performance_glitch_user and analyze timeout issue.
+Test purchase flow using "performance_glitch_user" and analyze timeout issue.
 
 ### Test File
 
@@ -264,8 +264,6 @@ Stores video evidence for failed tests.
 
 ## Allure Reporting
 
-Allure was integrated for professional test reporting.
-
 Two types of reports were generated:
 
 ### Success Report
@@ -321,7 +319,7 @@ Contains:
 
 ## Allure Report Generation Process
 
-In this project, I created two types of Allure reports:
+In this project,two types of Allure reports was created :
 
 1. Success report
 2. Failure report
@@ -330,12 +328,12 @@ The reason for creating two reports is to show both successful automation execut
 
 ### Step 1: Success Execution With Timeout
 
-For Q3, "performance_glitch_user" is intentionally slow. So I added custom timeout:
+For Q3, "performance_glitch_user" is intentionally slow. So custom timeout  added :
 
 ```javascript
 test.setTimeout(90000);
 ```
-Then I ran all tests:
+Then ran all tests:
 
 ```bash
 npx playwright test
@@ -345,7 +343,7 @@ This generated raw Allure result data in:
 ```text
 allure-results
 ```
-Then I renamed it as:
+Then renamed it as:
 
 ```text
 allure-results-success
@@ -355,7 +353,7 @@ This folder contains raw successful test execution data.
 
 ### Step 2: Generate Readable Success Report
 
-Raw "allure-results-success" is not easy to read directly. So I converted it into a readable Allure report:
+Raw "allure-results-success" is not easy to read directly. So converted it into a readable Allure report:
 
 ```bash
 allure generate allure-results-success --clean -o allure-report-success
@@ -368,12 +366,12 @@ allure-report-success
 
 ### Step 3: Failure Execution Without Timeout
 
-To show failure analysis, I temporarily commented the Q3 custom timeout:
+To show failure analysis, temporarily commented the Q3 custom timeout:
 
 ```javascript
 // test.setTimeout(90000);
 ```
-Then I ran all tests again:
+Then ran all tests again:
 
 ```bash
 npx playwright test
@@ -386,7 +384,7 @@ This generated raw failed test data in:
 allure-results
 ```
 
-Then I renamed it as:
+Then renamed it as:
 
 ```text
 allure-results-failure
@@ -394,7 +392,7 @@ allure-results-failure
 
 ### Step 4: Generate Readable Failure Report
 
-Raw "allure-results-failure" is also not easy to read directly. So I converted it into a readable Allure report:
+Raw "allure-results-failure" is also not easy to read directly. So converted it into a readable Allure report:
 
 ```bash
 allure generate allure-results-failure --clean -o allure-report-failure
@@ -425,7 +423,7 @@ allure open allure-report-failure
 
 Q3 uses "performance_glitch_user", which loads pages slower than normal users. Without custom timeout, Playwright default timeout was not enough, so Q3 failed.
 
-After analyzing the failure report, I added:
+After analyzing the failure report, added:
 
 ```javascript
 test.setTimeout(90000);
