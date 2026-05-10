@@ -5,14 +5,16 @@
 ## Project Overview
 
 This project demonstrates automated web testing for the SauceDemo website using Playwright with JavaScript.
-Webside link: https://www.saucedemo.com/
+  
+Webside link: https://www.saucedemo.com/  
+
 The automation framework was developed using:
 * Playwright
 * JavaScript
 * Page Object Model (POM)
 * Cross-browser testing
 * Allure Reporting
-* Git & GitHub
+* GitHub
 
 The project questions are:
 
@@ -63,8 +65,7 @@ PROJECT 2/
 | Playwright    | Web Automation Testing |
 | JavaScript    | Programming Language   |
 | VS Code       | IDE                    |
-| Git           | Version Control        |
-| GitHub        | Repository Hosting     |
+| GitHub        | Version Control        |
 | Allure Report | Test Reporting         |
 
 ---
@@ -439,7 +440,7 @@ This made Q3 stable and allowed the full execution to complete successfully.
 Clone repository:
 
 ```bash
-git clone <repository-link>
+git clone "https://github.com/Rawnakj1208/saucedemo-web-automation-with-playwright-project2.git"
 ```
 ---
 
