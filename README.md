@@ -119,7 +119,7 @@ purchaseFlow.spec.js
 1. Open website
 2. Login with "standard_user"and password "secret_sauce"
 3. Open hamburger menu
-4. Click `Reset App State`
+4. Click "Reset App State"
 5. Add any 3 products to cart
 6. Open cart page
 7. Click Checkout button
