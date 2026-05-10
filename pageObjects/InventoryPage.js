@@ -17,6 +17,10 @@ class InventoryPage{
         this.boltTShirtAddToCartButton = this.page.locator("//button[@data-test='add-to-cart-sauce-labs-bolt-t-shirt']");
 
         this.cartLink = this.page.locator("//a[@data-test='shopping-cart-link']");
+
+        this.sortDropdown = this.page.locator("//select[@data-test='product-sort-container']");
+
+        this.firstProductAddToCartButton = this.page.locator("//button[@data-test='add-to-cart-test.allthethings()-t-shirt-(red)']");
     }
 
     async openMenu(){
@@ -46,6 +50,15 @@ class InventoryPage{
     async logout(){
 
         await this.logoutLink.click();
+    }
+    async sortProductsZToA(){
+
+        await this.sortDropdown.selectOption("za");
+    }
+
+    async addFirstProductToCart(){
+
+        await this.firstProductAddToCartButton.click();
     }
 
 }
