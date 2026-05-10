@@ -6,7 +6,7 @@ This project was developed as part of a web automation testing assignment using 
 
 This project demonstrates automated web testing for the SauceDemo website using Playwright with JavaScript.
   
-Webside link: https://www.saucedemo.com/  
+Website link: https://www.saucedemo.com/  
 
 The automation framework was developed using:
 * Playwright
@@ -87,7 +87,7 @@ lockedOutUser.spec.js
 ### Steps
 
 1. Open website
-2. Enter locked_out_user username
+2. Enter "locked_out_user' username
 3. Enter password "secret_sauce"
 4. Click Login button
 5. Verify error message is displayed
@@ -117,7 +117,7 @@ purchaseFlow.spec.js
 ### Steps
 
 1. Open website
-2. Login with "standard_user"and password "secret_sauce"
+2. Login with "standard_user" and password "secret_sauce"
 3. Open hamburger menu
 4. Click "Reset App State"
 5. Add any 3 products to cart
@@ -319,7 +319,7 @@ Contains:
 
 ## Allure Report Generation Process
 
-In this project,two types of Allure reports was created :
+In this project,two types of Allure reports were created :
 
 1. Success report
 2. Failure report
@@ -328,7 +328,7 @@ The reason for creating two reports is to show both successful automation execut
 
 ### Step 1: Success Execution With Timeout
 
-For Q3, "performance_glitch_user" is intentionally slow. So custom timeout  added :
+For Q3, "performance_glitch_user" is intentionally slow. So custom timeout added :
 
 ```javascript
 test.setTimeout(90000);
