@@ -1,0 +1,69 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: zToAPurchaseFlow.spec.js >> Z to A Purchase Flow test >> Q3 performance_glitch_user Test
+- Location: tests\zToAPurchaseFlow.spec.js:15:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Open Menu" [ref=e8] [cursor=pointer]
+          - img "Open Menu" [ref=e9]
+        - generic [ref=e11]: Swag Labs
+        - generic [ref=e14]: "1"
+      - generic [ref=e16]: "Checkout: Overview"
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: QTY
+        - generic [ref=e21]: Description
+        - generic [ref=e22]:
+          - generic [ref=e23]: "1"
+          - generic [ref=e24]:
+            - link "Test.allTheThings() T-Shirt (Red)" [ref=e25]:
+              - /url: "#"
+              - generic [ref=e26]: Test.allTheThings() T-Shirt (Red)
+            - generic [ref=e27]: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+            - generic [ref=e29]: $15.99
+      - generic [ref=e30]:
+        - generic [ref=e31]: "Payment Information:"
+        - generic [ref=e32]: "SauceCard #31337"
+        - generic [ref=e33]: "Shipping Information:"
+        - generic [ref=e34]: Free Pony Express Delivery!
+        - generic [ref=e35]: Price Total
+        - generic [ref=e36]: "Item total: $15.99"
+        - generic [ref=e37]: "Tax: $1.28"
+        - generic [ref=e38]: "Total: $17.27"
+        - generic [ref=e39]:
+          - button "Go back Cancel" [ref=e40] [cursor=pointer]:
+            - img "Go back" [ref=e41]
+            - text: Cancel
+          - button "Finish" [ref=e42] [cursor=pointer]
+  - contentinfo [ref=e43]:
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - link "Twitter" [ref=e46]:
+          - /url: https://twitter.com/saucelabs
+      - listitem [ref=e47]:
+        - link "Facebook" [ref=e48]:
+          - /url: https://www.facebook.com/saucelabs
+      - listitem [ref=e49]:
+        - link "LinkedIn" [ref=e50]:
+          - /url: https://www.linkedin.com/company/sauce-labs/
+    - generic [ref=e51]: © 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+```

@@ -13,7 +13,7 @@ const { CheckoutCompletePage } = require('../pageObjects/CheckoutCompletePage');
 test.describe("Z to A Purchase Flow test",()=>{
 
     test("Q3 performance_glitch_user Test", async({page})=>{
-        test.setTimeout(90000);
+       // test.setTimeout(90000);
 
         const loginPage = new LoginPage(page);
 
