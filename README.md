@@ -484,7 +484,10 @@ Open:
 allure-report-success/index.html
 ```
 ---
-
+or Run command in terminal
+```bash
+allure open allure-report-success
+```
 
 ## Failure Report
 
@@ -495,12 +498,7 @@ allure-report-failure/index.html
 ```
 ---
 
-The reports can also be viewed locally using:
-
-```bash
-allure open allure-report-success
-```
-
+or Run command in terminal
 ```bash
 allure open allure-report-failure
 ```
